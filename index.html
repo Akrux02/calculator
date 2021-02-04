@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Let's count</h1>
+    </header>
+    <section>
+        <div>
+            <p>Initial: <input type="number" name="txtini" id="ini"></p>
+            <p>End: <input type="number" name="txtend" id="end"></p>
+            <p>Step: <input type="number" name="txtstep" id="step"></p>
+        </div>
+        <p>
+            <button class="button" onclick="count()"><span>Count</span></button>
+        </p>
+        <div id="res">Preparing count...</div>
+    </section>
+
+    <footer>
+        <p>&copy; Diego Sanches</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
